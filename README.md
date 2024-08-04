@@ -1,6 +1,6 @@
 # 30DaysJSChallenge
 
-🚀 Welcome to My JavaScript Journey! 🚀
+### 🚀 Welcome to My JavaScript Journey! 🚀
 
 Hello everyone,
 
