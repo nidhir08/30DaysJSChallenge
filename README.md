@@ -12,7 +12,7 @@ Each day, tackle a new problem or project covering various JS concepts like vari
 1.Master Core JavaScript Concepts: Deep dive into JavaScript fundamentals and advanced topics. \
 2.Solve Complex Problems: Improve my problem-solving skills by tackling related questions and DSA challenges.\
 3.Build Real-World Projects: Apply my knowledge to create projects that can be added to my portfolio.\
-4.Engage with the Community: Share my progress, get feedback, and support fellow learners.\
+4.Engage with the Community: Share my progress, get feedback, and support fellow learners.
 
 
 
