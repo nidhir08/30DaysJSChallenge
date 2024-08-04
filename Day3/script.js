@@ -2,131 +2,131 @@
 
 /* Activity 1 : If-else statements */
 //Task 1: Write a program to check if a number is positive,negative or zero and log the result to the console.
-// let number = prompt('Enter a Number');
-// if(number>0){
-//     console.log(`${number} is positive `);
-// }
-// else if( number < 0){
-//     console.log(`${number} is negative `);
-// }
-// else{
-//     console.log(`${number} is zero `);
-// }
+let number = prompt('Enter a Number');
+if(number>0){
+    console.log(`${number} is positive `);
+}
+else if( number < 0){
+    console.log(`${number} is negative `);
+}
+else{
+    console.log(`${number} is zero `);
+}
 
 //Task 2: Write a program to check if a person is eligible to vote (age>=18) and log the result to the console
-// let age = prompt('Enter your age');
-// if(age>=18){
-//     console.log(`You are eligible to vote`);
-// }
-// else
-//     console.log("You're not eligible to vote!");
+let age = prompt('Enter your age');
+if(age>=18){
+    console.log(`You are eligible to vote`);
+}
+else
+    console.log("You're not eligible to vote!");
 
 
 /* Activity 2: Nested If-Else Statements  */
 //Task 3 : Write a program to find the largest of three numbers using nested if-else statements.
-// let num1 = prompt('Enter the first number');
-// let num2 = prompt('Enter the second number');
-// let num3 = prompt('Enter the third number');
-// if(num1>num2){
-//     if(num1>num3){
-//         console.log(`${num1} is the largest number`);
-//     }
-//     else{
-//         console.log(`${num3} is the largest number`);
-//     }
-// }
-// else if(num2>num1){
-//     if(num2>num3){
-//         console.log(`${num2} is the largest number`);
-//     }
-//     else{
-//         console.log(`${num3} is the largest number`);
-//     }
-// }
-// else if (num3>num1){
-//     if(num3>num2){
-//         console.log(`${num3} is the largest number`);
-//     }
-//     else{
-//         console.log(`${num2} is the largest number`);
-//     }
-// }
-// else{
-//     console.log("All numbers are equal");
-// }
+let num1 = prompt('Enter the first number');
+let num2 = prompt('Enter the second number');
+let num3 = prompt('Enter the third number');
+if(num1>num2){
+    if(num1>num3){
+        console.log(`${num1} is the largest number`);
+    }
+    else{
+        console.log(`${num3} is the largest number`);
+    }
+}
+else if(num2>num1){
+    if(num2>num3){
+        console.log(`${num2} is the largest number`);
+    }
+    else{
+        console.log(`${num3} is the largest number`);
+    }
+}
+else if (num3>num1){
+    if(num3>num2){
+        console.log(`${num3} is the largest number`);
+    }
+    else{
+        console.log(`${num2} is the largest number`);
+    }
+}
+else{
+    console.log("All numbers are equal");
+}
 
 /* Activity 3: Switch Case */
 //Task 4: Write a program that uses a switch case to determine the day of the week based on a number(1-7) and log the day name to the console.
-// let day = prompt("Enter the no. of day of the week ");
-// switch(day){
-//     case "1":
-//         console.log("Today is Monday");
-//         break;
-//     case "2":
-//         console.log("Today is Tuesday");
-//         break;
-//     case "3":
-//         console.log("Today is Wednesday");
-//         break;
-//     case "4":
-//         console.log("Today is Thursday");
-//         break;
-//     case "5":
-//         console.log("Today is Friday");
-//         break;
-//     case "6":
-//         console.log("Today is Saturday");
-//         break;
-//     case "7":
-//         console.log("Today is Sunday");
-//         break;
-// }
+let day = prompt("Enter the no. of day of the week ");
+switch(day){
+    case "1":
+        console.log("Today is Monday");
+        break;
+    case "2":
+        console.log("Today is Tuesday");
+        break;
+    case "3":
+        console.log("Today is Wednesday");
+        break;
+    case "4":
+        console.log("Today is Thursday");
+        break;
+    case "5":
+        console.log("Today is Friday");
+        break;
+    case "6":
+        console.log("Today is Saturday");
+        break;
+    case "7":
+        console.log("Today is Sunday");
+        break;
+}
 
 //Task 5: Write a program that uses a switch case to assign a grade("A","B","C","D","F") based on a score and log the grade to the console.
-// let score = prompt("Enter your score between 1 to 100");
-// switch(true){
-//     case score>=90:
-//         console.log("Grade A");
-//         break;
-//     case score>=80:
-//         console.log("Grade B");
-//         break;
-//     case score>=70:
-//         console.log("Grade C");
-//         break;
-//     case score>=60:
-//         console.log("Grade D");
-//         break;
-//     default:
-//         console.log("Grade F");
-//}
+let score = prompt("Enter your score between 1 to 100");
+switch(true){
+    case score>=90:
+        console.log("Grade A");
+        break;
+    case score>=80:
+        console.log("Grade B");
+        break;
+    case score>=70:
+        console.log("Grade C");
+        break;
+    case score>=60:
+        console.log("Grade D");
+        break;
+    default:
+        console.log("Grade F");
+}
 
 /* Activity 4: Conditional (Ternary) Operator */
 //Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
-// let num = prompt("Enter a number");
-// let result = num % 2 === 0 ? "Even" : "Odd";
-// console.log(`Number is ${result}`);
+let num = prompt("Enter a number");
+let result = num % 2 === 0 ? "Even" : "Odd";
+console.log(`Number is ${result}`);
 
 /*Activity 5: Combining Conditions */
 //Task 7: Write a program to check if a year is a leap year using multiple conditions(divisible by 4, but not 100 unless also divisible by 400)
-// let year = prompt("Enter a year");
-// if((year%4)===0){
-//     if((year%100)===0){
-//         if((year%400)===0){
-//             console.log(`Year ${year} is a leep year`)
-//         }
-//         else{
-//             console.log(`Year ${year} is not a leap year`)
-//         }
+let year = prompt("Enter a year");
+if((year%4)===0){
+    if((year%100)===0){
+        if((year%400)===0){
+            console.log(`Year ${year} is a leep year`)
+        }
+        else{
+            console.log(`Year ${year} is not a leap year`)
+        }
     
-//     }
-//     else{
-//         console.log(`Year ${year} is a leap year`)
-//     }  
-// }
-// else{
-//     console.log(`Year ${year} is not a leap year`)
-// }
+    }
+    else{
+        console.log(`Year ${year} is a leap year`)
+    }  
+}
+else{
+    console.log(`Year ${year} is not a leap year`)
+}
 
 
 /* Feature Request */
