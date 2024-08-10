@@ -1,57 +1,57 @@
 /* Functions */
 /* Activity 1: Function Declaration */
 //Task 1: Write a function to check if a number is even or odd and log the result to the console.
-// function isEvenOdd(num){
-//     if(num%2==0){
-//         console.log(`${num} is Even`);
-//     }
-//     else{
-//         console.log(`${num} is Odd`);
-//     }
-// }
+function isEvenOdd(num){
+    if(num%2==0){
+        console.log(`${num} is Even`);
+    }
+    else{
+        console.log(`${num} is Odd`);
+    }
+}
 
-// let num = prompt("Enter a number");
-// isEvenOdd(num);
+let num = prompt("Enter a number");
+isEvenOdd(num);
 
 //Task 2: Write a function to calculate the square of a number and return the result.
-// function squareNumber(num){
-//     num=num*num;
-//     return num;
+function squareNumber(num){
+    num=num*num;
+    return num;
     
-// }     
-// let num1 = prompt("Enter a number");
-// console.log(`Square of ${num1} is `,squareNumber(num1));
+}     
+let num1 = prompt("Enter a number");
+console.log(`Square of ${num1} is `,squareNumber(num1));
 
 
 /* Activity 2: Function Expression */
 //Task 3: Write a function expression to find the maximum of two numbers and log the result to the console.
-// let maxNum = function(a,b){
-//     if(a>b){
-//         console.log(`${a} is maximum`);
-//     }
-//     else {
-//         console.log(`${b} is maximum`);
-//     }
-// }
-// maxNum(10,20);
+let maxNum = function(a,b){
+    if(a>b){
+        console.log(`${a} is maximum`);
+    }
+    else {
+        console.log(`${b} is maximum`);
+    }
+}
+maxNum(10,20);
 
 //Task 4: Write a function to concatenate two strings and return the result.
-// let concatString = function(string1,string2){
-//     let concatenate = string1+string2;
-//     return concatenate;
-// }
-// console.log(`String after concatenation is`,concatString("Nidhi ","Rawat"));
+let concatString = function(string1,string2){
+    let concatenate = string1+string2;
+    return concatenate;
+}
+console.log(`String after concatenation is`,concatString("Nidhi ","Rawat"));
 
 
 /* Arrow Functions  */
 //Task 5: Write an arrow function to calculate the sum of two numbers and return the result.
-// let sumNumbers = (a,b)=>{
-//     let sum = a+b;
-//    return sum;
-// }
-// const a = 3;
-// const b = 5;
-// console.log(`Sum of ${a} & ${b} is `,sumNumbers(a,b));
+let sumNumbers = (a,b)=>{
+    let sum = a+b;
+   return sum;
+}
+const a = 3;
+const b = 5;
+console.log(`Sum of ${a} & ${b} is `,sumNumbers(a,b));
 
 //Task 6: Write an arrow function to check if a string contains a specific character and return a boolean value.
 let checkChar = (char)=>{
@@ -130,20 +130,20 @@ let evenOdd = (number) =>{
 evenOdd(2);
 
 //2. Square Calculation Function Script: Create a script that includes a function to calculate thesquare of a number and returns the result.
-// let square = (number) =>{
-//     return number*number;
-// }
-// let number = prompt("Enter a Number");
-// console.log(`Square of ${number} is `,square(number));
+let square = (number) =>{
+    return number*number;
+}
+let number = prompt("Enter a Number");
+console.log(`Square of ${number} is `,square(number));
 
 //3.Concatenation function script: Write a script that includes a function expression to concatenate two strings and return the result.
-// let concat = (str1,str2) =>{
-//     let concatenate = str1+str2;
-//     return concatenate;
-// }
-// let str1 = prompt("Enter first string");
-// let str2 = prompt("Enter second string");
-// console.log(`Concatenated string is `,concat(str1,str2));
+let concat = (str1,str2) =>{
+    let concatenate = str1+str2;
+    return concatenate;
+}
+let str1 = prompt("Enter first string");
+let str2 = prompt("Enter second string");
+console.log(`Concatenated string is `,concat(str1,str2));
 
 //4.Sum Calculation Arrow Function Script : Create a script that includes an arrow function to calculate the sum of two numbers and returns the result.
 let sum = (num1,num2) =>{
