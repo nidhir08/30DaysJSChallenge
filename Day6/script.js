@@ -14,21 +14,21 @@ console.log(`Arrays Last element is : ${numbers[numbers.length - 1]}`);
 
 /* Activity 2: Array Methods(Basic) */
 //Task 3: Use the push method to add a new member to the end of the array and log the updated array.
-//let array = [20,30,40,60];
-// array.push(80);
-// console.log(`Updated Array after pushing the new element: ${array}`);
+let array = [20,30,40,60];
+array.push(80);
+console.log(`Updated Array after pushing the new element: ${array}`);
 
 // //Task 4: Use the pop method to remove the last element from the array and log the updated array.
-// array.pop();
-// console.log(`Updated Array after popping the element : ${array}`);
+array.pop();
+console.log(`Updated Array after popping the element : ${array}`);
 
 // //Task 5: Use the shift method to remove the first element from the array and log the updated array.
-// array.shift();
-// console.log(`Updated Array after shifting the element : ${array}`);
+array.shift();
+console.log(`Updated Array after shifting the element : ${array}`);
 
 // //Task 6: Use the unshift method to add a new member to the beginning of the array and log the updated array.
-// array.unshift(10);
-// console.log(`Updated Array after unshifting the element : ${array}`);
+array.unshift(10);
+console.log(`Updated Array after unshifting the element : ${array}`);
 
 
 /* Activity 3: Array Methods(Intermediate) */
